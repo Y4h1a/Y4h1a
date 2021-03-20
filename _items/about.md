@@ -12,7 +12,7 @@ Web Pentester since I got Essential badge from Pentester Lab in Sep 2020.
 
 Started my Bug Hunting journey since Jan 2021.
 
-intersted in Mobile & iot pentesting too.
+Intersted in Mobile & iot pentesting too.
 
 SYNACK RED TEAMER wanna be.
 
