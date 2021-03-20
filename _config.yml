@@ -17,7 +17,7 @@ title: Y4h1a Bl0g
 author: "<Yahia>"
 email: "<your@mail>"
 description: A simple Jekyll theme based on potatoes and hackers
-baseurl: "/Y4h1a/" # the subpath of your site, e.g. /blog
+baseurl: "/Y4h1a" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # ------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ theme_switch: on         # Show color switch (on | off)
 blog: on                 # Show blog tag and post list (on | off)
 avatar: on               # Show avatar (on | off)
 avatar_image: "assets/img/avatar.jpg"
-avatar_description: "My name is yahia and I'm NOT a HACKER I'm PIKASSO."
+avatar_description: "My name is yahia and I'm NOT a HACKER I'm PICASSO."
 highlighter_theme: gruvbox  # Theme of the syntax_highlighter [base16 |
                             # colorful | github | gruvbox | molokai |
                             # monokai | pastie | thankful_eyes | tulip ]
