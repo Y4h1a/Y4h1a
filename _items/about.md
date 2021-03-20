@@ -6,10 +6,16 @@ description: whoami
 # Me.. 
 **I'm not a Heart Breaker, I'm a Security Breaker ♥️ .**
 
-Box Breaker.
+I smashed my first BOX in Feb 2020.
+
+Web Pentester since I got Essential badge from Pentester Lab in Sep 2020.
 
 Started my Bug Hunting journey since Jan 2021.
 
-❣️
+intersted in Mobile & iot pentesting too.
+
+SYNACK RED TEAMER wanna be.
+
+I really love my LVLy Girl ❣️.
 
 
