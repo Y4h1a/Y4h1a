@@ -16,6 +16,6 @@ description: whoami
 
 **SYNACK RED TEAMER wanna be.**
 
-**I really love my LVLy Girl ❣️.**
+
 
 
