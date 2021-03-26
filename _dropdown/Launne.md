@@ -12,12 +12,23 @@ priority: 1
 
 # []()Methodology
 
-* nmap scan
-* Web enumertation
+* Nmap scan.
+* Web enumertation.
+* Lua web application security vulnerabilities.
+* Getting reverse shell.
+* Enumerate launne.
+* Getting id_rsa for a user.
+* ssh connecting.
+* Privilege escalation.
+* RooTed.
 
-> lets goo
+## Nmap Scan:
 
-> ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/64c7e259-9168-4229-9667-2595a8ddbe3a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T195051Z&X-Amz-Expires=86400&X-Amz-Signature=6e899b602e9231418485f298e07fb90c8d05390be5262e8817c037c988b418cd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+**I Found 3 port opened 22,80,9001 ** 
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/64c7e259-9168-4229-9667-2595a8ddbe3a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T195051Z&X-Amz-Expires=86400&X-Amz-Signature=6e899b602e9231418485f298e07fb90c8d05390be5262e8817c037c988b418cd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+
 
 ![]()
 ![]()
