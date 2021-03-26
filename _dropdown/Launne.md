@@ -42,21 +42,44 @@ priority: 1
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a02ba02-588c-4963-9dc7-24ea4943787e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T220955Z&X-Amz-Expires=86400&X-Amz-Signature=cc099e62053f11be44e021d0cb5e4789522f0935ca106604f5f0521d40de01a3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 
-> #### I used ffuf for fuzzing launne.htb/
+#### I used ffuf for fuzzing launne.htb/
 
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6b5b7fb-096e-4093-8e4e-c60e9995e58e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T221725Z&X-Amz-Expires=86400&X-Amz-Signature=8fc77eddae8de86bd36a0cf5c68b9a9fabfd4662dd30c88f17b2a0a8bed8094f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 
 
-* we got robots.txt
+* We got robots.txt
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6ab319aa-1ec4-4590-b79a-3a1c662e4592/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T221840Z&X-Amz-Expires=86400&X-Amz-Signature=d5b1629ee14b8a6800c3adbee52baa8619ee207b69bb3ef4a574e9163fb2d6b0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
+* /weather disallowd with comment: still harversting cities.
 
-![]()
-![]()
-![]()
+* access to launne.htb/weather 404 not found.
+
+* but there are cities we had to find them.
+
+* let's fire up ffuf again to fuzz launne.htb/weather/ 
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4cc16698-a933-4e1f-b8fe-93d90e352b09/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T222958Z&X-Amz-Expires=86400&X-Amz-Signature=671502ab015208afeb98b1e8115c50c54a76c79eac2badc5047ca95c6a2786ca&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+**Nice got forecast**
+
+* by visiting launne.htb/weather/forecast/ got this.
+
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/30d8f697-acbb-4e76-a9d3-f180eef28422/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T223205Z&X-Amz-Expires=86400&X-Amz-Signature=54f272392356033508eb550b63db92bf354720ed6607b1ca1a05839ebf2b4a08&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+
+#### Use city=list to list available cities 
+
+*okay, Thanks*
+
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/97f1a229-81a0-4fc5-a5bd-a1563ef5d03a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T223414Z&X-Amz-Expires=86400&X-Amz-Signature=1a4dc9c7f0f8694c1e8fa955301877b599fc83c7420080adeb386ce8f37a0d03&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+
+
 ![]()
 ![]()
 ![]()
