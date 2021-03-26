@@ -37,11 +37,21 @@ priority: 1
 
 **I Tried admin:admin and other random credentials but no thing fine to login**
 
-**But i notied that when i got (401 Unauthorized) that is a localhost web page at port 3000**
+**But i noticed that when i got (401 Unauthorized) that is a localhost web page at port 3000**
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a02ba02-588c-4963-9dc7-24ea4943787e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T220955Z&X-Amz-Expires=86400&X-Amz-Signature=cc099e62053f11be44e021d0cb5e4789522f0935ca106604f5f0521d40de01a3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-![]()
+
+#### I used ffuf for fuzzing launne.htb/
+
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6b5b7fb-096e-4093-8e4e-c60e9995e58e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T221725Z&X-Amz-Expires=86400&X-Amz-Signature=8fc77eddae8de86bd36a0cf5c68b9a9fabfd4662dd30c88f17b2a0a8bed8094f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+
+
+* we got robots.txt
+
+* 
 ![]()
 ![]()
 ![]()
