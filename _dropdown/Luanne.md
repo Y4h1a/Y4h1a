@@ -116,20 +116,20 @@ webapi_user:$1$vVoNCsOl$lMtBS6GL2upDbR4Owhzyc0
 
 > * We got user r.michaels 
 
-** Let's check the netstate 
+**Let's check the netstate 
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/68cbe7e3-435c-4071-b0c2-362c4e020e4e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T000734Z&X-Amz-Expires=86400&X-Amz-Signature=a44ed310321fbe5aa26f79c418f10a2cba6f2bdd49b10dfde7c7b76104cbdf03&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 > * There is a localhost web page on port 3000 and 3001 
 
-** Let's Dig more
+**Let's Dig more
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/62151e89-8b1e-4410-81d0-576865571022/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T000947Z&X-Amz-Expires=86400&X-Amz-Signature=0feb6997691ee9f8b4fb6bc2d50bde74b6fbf1879abab801c6ce75945912f2c4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/274bfca7-5dc2-4e22-829e-fc635a640a9f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T001005Z&X-Amz-Expires=86400&X-Amz-Signature=8eda012b3fa2de684229b9ed534e0dfe70be7b67d8d148d8b4beef47c8da1731&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-** So let's Try to curl the local web server ports in 3001
+**So let's Try to curl the local web server ports in 3001
 ![]()
 ![]()
 ![]()
