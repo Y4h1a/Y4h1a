@@ -139,11 +139,22 @@ curl 127.0.0.1:3001/~r.michaels/.ssh/id_rsa
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/577680ad-0d62-4049-8807-06949f11b2bf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T094912Z&X-Amz-Expires=86400&X-Amz-Signature=dc3af5a2ddd7f2616085ca6eb5b9a49d3f72286e038a5771c55efc9c4413f6a7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 
-![]()
-![]()
-![]()
-![]()
-![]()
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc2830e1-d413-45e5-b2e4-b08f25dc5971/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T104638Z&X-Amz-Expires=86400&X-Amz-Signature=24fa5d4156e6580b973a080a29bc407a275802c7282bbf4eb5fbe67b4de71d23&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+> **No Authorization, So let's login with "iamthebest"** 
+
+```html
+curl - -user webapi_user:iamthebest 127.0.0.1:3001/~r.michaels/id_rsa
+```
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4319954-c801-4fd4-be32-ae661b5395f9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T104907Z&X-Amz-Expires=86400&X-Amz-Signature=8ebcb5b89974c9bf25f1d1e439ae070680d0272aa7ca73600ed2902daf21e06a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+
+## SSH connecting.
+
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/39a3ea0a-a456-4cbc-85bb-f2a108f54ce1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T110437Z&X-Amz-Expires=86400&X-Amz-Signature=30bda8b984028e7110f3f303ac6734f2b6c3f81c73e493926d29435fc55ebee1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
 ![]()
 ![]()
 ![]()
