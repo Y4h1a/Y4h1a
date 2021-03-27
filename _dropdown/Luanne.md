@@ -155,12 +155,42 @@ curl - -user webapi_user:iamthebest 127.0.0.1:3001/~r.michaels/id_rsa
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/39a3ea0a-a456-4cbc-85bb-f2a108f54ce1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T110437Z&X-Amz-Expires=86400&X-Amz-Signature=30bda8b984028e7110f3f303ac6734f2b6c3f81c73e493926d29435fc55ebee1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d4ce4df0-4220-4d4e-9ecd-9d80f5d439f9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T111708Z&X-Amz-Expires=86400&X-Amz-Signature=092e4423b90439f98569273f708bf73c7f3326654563b7268cdc2928b410450f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+**WE will use netpgp to decrypt devel_backup-2020-09-16.tar.gz.enc**
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/df9e3cd8-2f09-4ac2-9d4a-de75132cf62f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T111924Z&X-Amz-Expires=86400&X-Amz-Signature=adcbf5ffb0181c3da4216b859d3e234763e346959dfbe9e3ead20d0d453149e7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+> * we access to /webapi but no thing useful.
+
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7e6784ef-44d6-4f6d-966b-fa043e7f028b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T112012Z&X-Amz-Expires=86400&X-Amz-Signature=234487128c019cc5bca0afed5d4355c31bc8a33b9ac6c36d8264b785be79deb4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+> **we access to /www and got another webapi_user**
+ 
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0e656a1a-424f-45c4-99e4-1ee73d0a2379/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T112121Z&X-Amz-Expires=86400&X-Amz-Signature=0979a19503435017e80de8bdb182cc4d32ff1aa4fb4a9df728d0cb02ae557d63&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+* webapi_user:$1$6xc7I/LW$WuSQCS6n3yXsjPMSmwHDu.
+
+
+#### As before we will use john to crack it.
+
+> **we got"littlebear"**
+
+**by switching to superuser permissions using sudo su**
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18e18677-6eb5-4bf0-8f8f-e47caec1a68a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T114025Z&X-Amz-Expires=86400&X-Amz-Signature=4fb1cad83fb9853f3930e6cbccf4411e5eb4c2c4d2b058b6cc7abcba4345120f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+##### Command Not Found!!!
+
+> **we had to find alternatives for sudo su in netBSD operating system**
+
+* I found doas su, And tha's ok.
+
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9369b1ff-362e-42f6-920a-7a3eb88b5504/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T114352Z&X-Amz-Expires=86400&X-Amz-Signature=1daca75835fcf2777e7d4cdb8368c74cba25ed9acaedeab2f328f86131c3de40&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+# RooTed
 ![]()
 ![]()
 ![]()
