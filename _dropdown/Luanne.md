@@ -120,7 +120,7 @@ webapi_user:$1$vVoNCsOl$lMtBS6GL2upDbR4Owhzyc0
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/68cbe7e3-435c-4071-b0c2-362c4e020e4e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T000734Z&X-Amz-Expires=86400&X-Amz-Signature=a44ed310321fbe5aa26f79c418f10a2cba6f2bdd49b10dfde7c7b76104cbdf03&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-> * There is a localhost web page on port 3000 and 3001 
+> * There is a localhost web page on port 3000 and 3001. 
 
 **Let's Dig more**
 
@@ -129,14 +129,16 @@ webapi_user:$1$vVoNCsOl$lMtBS6GL2upDbR4Owhzyc0
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/274bfca7-5dc2-4e22-829e-fc635a640a9f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T001005Z&X-Amz-Expires=86400&X-Amz-Signature=8eda012b3fa2de684229b9ed534e0dfe70be7b67d8d148d8b4beef47c8da1731&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-**I got hinted to dig more in port 3001 and get id_rsa**
+**I got hinted to dig more in port 3001 and get id_rsa.**
 
-**So let's Try to curl the local web server in port 3001**
+**So let's Try to curl the local web server in port 3001.**
 ```html
 curl 127.0.0.1:3001/~r.michaels/.ssh/id_rsa
 ``` 
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/577680ad-0d62-4049-8807-06949f11b2bf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T094912Z&X-Amz-Expires=86400&X-Amz-Signature=dc3af5a2ddd7f2616085ca6eb5b9a49d3f72286e038a5771c55efc9c4413f6a7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+> **no items here so we can find it in /~r.michaels/id_rsa ,Because we enterted launne as _httpd so this folder shared through web that's why we found id_rsa in /~r.michaels/ not in /~r.michaels/.ssh/**
 
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc2830e1-d413-45e5-b2e4-b08f25dc5971/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T104638Z&X-Amz-Expires=86400&X-Amz-Signature=24fa5d4156e6580b973a080a29bc407a275802c7282bbf4eb5fbe67b4de71d23&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
@@ -157,7 +159,7 @@ curl - -user webapi_user:iamthebest 127.0.0.1:3001/~r.michaels/id_rsa
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d4ce4df0-4220-4d4e-9ecd-9d80f5d439f9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T111708Z&X-Amz-Expires=86400&X-Amz-Signature=092e4423b90439f98569273f708bf73c7f3326654563b7268cdc2928b410450f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-**WE will use netpgp to decrypt devel_backup-2020-09-16.tar.gz.enc**
+> **WE will use netpgp to decrypt devel_backup-2020-09-16.tar.gz.enc**
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/df9e3cd8-2f09-4ac2-9d4a-de75132cf62f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T111924Z&X-Amz-Expires=86400&X-Amz-Signature=adcbf5ffb0181c3da4216b859d3e234763e346959dfbe9e3ead20d0d453149e7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
@@ -166,7 +168,7 @@ curl - -user webapi_user:iamthebest 127.0.0.1:3001/~r.michaels/id_rsa
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7e6784ef-44d6-4f6d-966b-fa043e7f028b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T112012Z&X-Amz-Expires=86400&X-Amz-Signature=234487128c019cc5bca0afed5d4355c31bc8a33b9ac6c36d8264b785be79deb4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-> **we access to /www and got another webapi_user**
+> **we access to /www and got another webapi_user.**
  
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0e656a1a-424f-45c4-99e4-1ee73d0a2379/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T112121Z&X-Amz-Expires=86400&X-Amz-Signature=0979a19503435017e80de8bdb182cc4d32ff1aa4fb4a9df728d0cb02ae557d63&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
@@ -177,15 +179,16 @@ curl - -user webapi_user:iamthebest 127.0.0.1:3001/~r.michaels/id_rsa
 
 > **we got"littlebear"**
 
-**by switching to superuser permissions using sudo su**
+**by switching to superuser permissions using sudo su...**
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18e18677-6eb5-4bf0-8f8f-e47caec1a68a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T114025Z&X-Amz-Expires=86400&X-Amz-Signature=4fb1cad83fb9853f3930e6cbccf4411e5eb4c2c4d2b058b6cc7abcba4345120f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ##### Command Not Found!!!
 
-> **we had to find alternatives for sudo su in netBSD operating system**
+> **we had to find Alternatives for sudo su in netBSD operating system.**
 
-* I found doas su, And tha's ok.
+* I found doas su, And that's ok.
+* Surely we will use littlebear to get root.
 
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9369b1ff-362e-42f6-920a-7a3eb88b5504/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T114352Z&X-Amz-Expires=86400&X-Amz-Signature=1daca75835fcf2777e7d4cdb8368c74cba25ed9acaedeab2f328f86131c3de40&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
