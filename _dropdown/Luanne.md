@@ -107,7 +107,7 @@ webapi_user:$1$vVoNCsOl$lMtBS6GL2upDbR4Owhzyc0
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/98100502-7a21-44e9-a307-71009920d1f5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T000029Z&X-Amz-Expires=86400&X-Amz-Signature=ba06437302ef5bb61103ad4745f4a1173b7f3ef368623bb14d2824626fb64d01&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-** we got iamthebest**
+**we got iamthebest**
 
 ## Enumerate luanne.
 
@@ -129,7 +129,16 @@ webapi_user:$1$vVoNCsOl$lMtBS6GL2upDbR4Owhzyc0
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/274bfca7-5dc2-4e22-829e-fc635a640a9f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T001005Z&X-Amz-Expires=86400&X-Amz-Signature=8eda012b3fa2de684229b9ed534e0dfe70be7b67d8d148d8b4beef47c8da1731&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-**So let's Try to curl the local web server ports in 3001**
+**I got hinted to dig more in port 3001 and get id_rsa**
+
+**So let's Try to curl the local web server in port 3001**
+```html
+curl 127.0.0.1:3001/~r.michaels/.ssh/id_rsa
+``` 
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/577680ad-0d62-4049-8807-06949f11b2bf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210327T094912Z&X-Amz-Expires=86400&X-Amz-Signature=dc3af5a2ddd7f2616085ca6eb5b9a49d3f72286e038a5771c55efc9c4413f6a7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+
 ![]()
 ![]()
 ![]()
@@ -138,3 +147,16 @@ webapi_user:$1$vVoNCsOl$lMtBS6GL2upDbR4Owhzyc0
 ![]()
 ![]()
 ![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+
