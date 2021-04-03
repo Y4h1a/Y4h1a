@@ -138,6 +138,6 @@ cat /root/root.txt
 
 <h1 style="background-color:powderblue;">This is a heading</h1>
 
-
+<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
 ![]()
 ![]()
