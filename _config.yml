@@ -41,7 +41,7 @@ blog: on                 # Show blog tag and post list (on | off)
 avatar: on               # Show avatar (on | off)
 avatar_image: "assets/img/SRT.jfif"
 avatar_description: "My name is YAhia and I'm NOT a HACKER I'm PICASSO."
-highlighter_theme: gruvbox  # Theme of the syntax_highlighter [base16 |
+highlighter_theme: colorful  # Theme of the syntax_highlighter [base16 |
                             # colorful | github | gruvbox | molokai |
                             # monokai | pastie | thankful_eyes | tulip ]
 toolbar_priority:        # Order of the items in the toolbar (except for blog and home)
