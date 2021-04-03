@@ -133,6 +133,8 @@ cat /root/root.txt
 
 <img src="http://www.hackthebox.eu/badge/image/209461" alt="Hack The Box">
 
+<h1>Y4H1A</h1>
+
 
 
 
