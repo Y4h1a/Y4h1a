@@ -14,12 +14,10 @@ priority: 2
 
 * Nmap scan.
 * Web enumertation.
-* Lua code injection vulnerability.
+* Jackson RCE cve.
 * Getting reverse shell.
-* Enumerate luanne.
-* Getting id_rsa for a user.
-* ssh connecting.
-* Privilege escalation.
+* Enumerate Time.
+* Getting reverse shell.
 * RooTed.
 
 ## Nmap Scan:
