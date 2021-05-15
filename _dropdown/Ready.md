@@ -6,7 +6,7 @@ dropdown: HTB-BOXES
 priority: 3
 ---
 # Ready Walkthrough
-![](https://ibb.co/MNvrF0n)
+![](https://i.ibb.co/dKTF8YB/image.png)
 
 
 
