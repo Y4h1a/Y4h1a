@@ -25,7 +25,7 @@ priority: 3
 **I just found 22 for ssh and 5080 for nginx.**
 
 
-![](https://ibb.co/WsW2S5g)
+![](https://i.ibb.co/yVnQLPW/image.png)
 
 ### Let's start with the Web Page:
 
