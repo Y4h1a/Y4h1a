@@ -27,5 +27,56 @@ priority: 3
 
 ![](https://i.ibb.co/yVnQLPW/image.png)
 
-### Let's start with the Web Page:
+### Check the Nginx service:
 
+![](https://i.ibb.co/6s9FbLF/image.png)
+
+> * It's a Gitlab Service run on Nginx 
+
+![]()
+
+
+![]()
+
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+
+![]()
+![]()
+
+
+![]()
+
+![]()
+
+![]()
+
+
+![]()
+
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+![]()
+
+![]()
