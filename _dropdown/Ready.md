@@ -13,11 +13,11 @@ priority: 3
 # []()Methodology
 
 * Nmap scan.
-* Web enumertation.
-* Jackson RCE cve.
+* Nginx enumertation.
+* Gitlab RCE vis SSRF.
 * Getting reverse shell.
-* Enumerate Time.
-* Getting reverse shell.
+* Enumerate Ready using LinPEAS.
+* Escaping Docker Privileged Containers.
 * RooTed.
 
 ## Nmap Scan:
@@ -81,7 +81,7 @@ project_url = f'{gitlab_url}/{username}'
 
 > * I upload [linPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) to automate the enumeration process for Ready box.
 
-**After it finished i got this in backup files
+**After it finished i got this in backup files.**
 
 
 ![](https://i.ibb.co/prF3nms/image.png)
@@ -90,14 +90,16 @@ project_url = f'{gitlab_url}/{username}'
 gitlab_rails['smtp_password'] = "wW59U!ZKMbG9+*#h"
 
 ```
-> **I will this smtp password to switch to root permissions.**
+> **I will use this smtp password to switch to root permissions.**
 
 
-![](https://i.ibb.co/prF3nms/image.png)
+![](https://i.ibb.co/8Mcq2fr/image.png)
 
 
+![](https://i.ibb.co/FJG9WmH/image.png)
 
-![]()
+> * Now i'm in docker, so i need to escape to esclate my priviliges.
+
 
 
 ![]()
