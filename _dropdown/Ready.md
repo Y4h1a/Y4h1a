@@ -14,7 +14,7 @@ priority: 3
 
 * Nmap scan.
 * Nginx enumertation.
-* Gitlab RCE vis SSRF.
+* Gitlab RCE via SSRF.
 * Getting reverse shell.
 * Enumerate Ready using LinPEAS.
 * Escaping Docker Privileged Containers.
