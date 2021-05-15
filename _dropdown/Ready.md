@@ -77,12 +77,25 @@ project_url = f'{gitlab_url}/{username}'
 ![](https://i.ibb.co/NjrQ57w/image.png)
 
 
+#### Time for enumerate Ready machine.
 
-![]()
+> * I upload [linPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) to automate the enumeration process for Ready box.
 
-![]()
+**After it finished i got this in backup files
 
-![]()
+
+![](https://i.ibb.co/prF3nms/image.png)
+
+```ruby
+gitlab_rails['smtp_password'] = "wW59U!ZKMbG9+*#h"
+
+```
+> **I will this smtp password to switch to root permissions.**
+
+
+![](https://i.ibb.co/prF3nms/image.png)
+
+
 
 ![]()
 
