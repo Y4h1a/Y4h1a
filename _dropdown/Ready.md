@@ -6,7 +6,7 @@ dropdown: HTB-BOXES
 priority: 3
 ---
 # Ready Walkthrough
-![](https://i.ibb.co/pP4vK3F/image.png)
+![](https://ibb.co/MNvrF0n)
 
 
 
@@ -22,10 +22,10 @@ priority: 3
 
 ## Nmap Scan:
 
-**I just found 22 for ssh and 80 for http web page**
+**I just found 22 for ssh and 5080 for nginx.**
 
 
-![](https://i.ibb.co/rGkP8zJ/image.png)
+![](https://ibb.co/WsW2S5g)
 
 ### Let's start with the Web Page:
 
