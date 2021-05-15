@@ -62,15 +62,21 @@ project_url = f'{gitlab_url}/{username}'
 
 ```
 
-> **We will bypass ssrf protection using this payload `[0:0:0:0:0:ffff:127.0.0.1]` and get the reverse shell in our listner. this is the exploit will do.
+> **We will bypass ssrf protection using this payload `[0:0:0:0:0:ffff:127.0.0.1]` and get the reverse shell in our listner. this is the exploit will do.**
 
 
-![]()
 
 
-![]()
+![](https://i.ibb.co/4fwTjjV/image.png)
 
-![]()
+
+![](https://i.ibb.co/V9RW1Y7/image.png)
+
+### Got the User flag!
+
+![](https://i.ibb.co/NjrQ57w/image.png)
+
+
 
 ![]()
 
